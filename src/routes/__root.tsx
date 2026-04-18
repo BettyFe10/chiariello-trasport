@@ -36,8 +36,11 @@ export const Route = createRootRoute({
         content:
           "Chiariello Trasport: trasporti con camion a sponda idraulica. Consegne sicure, carico e scarico assistito. Azienda familiare dal 2016.",
       },
+      { name: "robots", content: "index, follow" },
       { name: "author", content: "Chiariello Trasport" },
       { property: "og:type", content: "website" },
+      { property: "og:site_name", content: "Chiariello Trasport" },
+      { property: "og:locale", content: "it_IT" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
   }),

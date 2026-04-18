@@ -18,17 +18,17 @@ import heroTruck from "@/assets/hero-truck.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Chiariello Trasport — Trasporto merci e spedizioni in Italia" },
+      { title: "Trasporto merci, logistica e magazzino in Italia | Chiariello Trasport" },
       {
         name: "description",
         content:
-          "Servizi di trasporto merci, spedizioni nazionali e logistica integrata per aziende e privati. Preventivo gratuito in 24 ore. Affidabilità e puntualità garantite.",
+          "Trasporto merci su gomma, spedizioni nazionali, logistica e magazzino. Camion con sponda idraulica, consegne sicure e preventivo gratuito in 24 ore.",
       },
-      { property: "og:title", content: "Chiariello Trasport — Trasporto merci e logistica" },
+      { property: "og:title", content: "Chiariello Trasport — Trasporto merci, logistica e magazzino" },
       {
         property: "og:description",
         content:
-          "Trasporto merci su gomma, spedizioni nazionali e soluzioni logistiche su misura per aziende e privati.",
+          "Trasporto merci su gomma, spedizioni nazionali e soluzioni di logistica e magazzino per aziende e privati.",
       },
       { property: "og:image", content: heroTruck },
       { name: "twitter:image", content: heroTruck },
@@ -46,12 +46,12 @@ const services = [
   {
     icon: PackageCheck,
     title: "Spedizioni Nazionali",
-    desc: "Consegne porta a porta su tutto il territorio italiano. Soluzioni FTL e groupage per ogni tipologia di carico.",
+    desc: "Consegne porta a porta su tutto il territorio italiano. Soluzioni a carico completo (FTL) e carichi parziali, per ogni tipologia di merce.",
   },
   {
     icon: ArrowUpDown,
     title: "Logistica Integrata",
-    desc: "Gestione completa della filiera: ritiro, trasporto, consegna e operazioni di carico/scarico assistite.",
+    desc: "Gestione completa della filiera: ritiro, trasporto, consegna, carico/scarico assistiti e supporto magazzino su richiesta.",
   },
   {
     icon: RouteIcon,
@@ -131,14 +131,14 @@ function HomePage() {
           <div className="animate-fade-up">
             <span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider backdrop-blur">
               <span className="h-1.5 w-1.5 rounded-full bg-accent" />
-              Trasporto merci & Logistica
+              Trasporto merci, logistica e magazzino
             </span>
             <h1 className="mt-6 font-display text-4xl font-bold leading-[1.05] tracking-tight md:text-5xl lg:text-6xl xl:text-7xl">
               Trasporto merci e spedizioni<br />
               <span className="text-accent">in tutta Italia.</span>
             </h1>
             <p className="mt-6 max-w-xl text-lg text-white/85 md:text-xl">
-              Soluzioni di trasporto e logistica su misura per aziende e privati.
+              Soluzioni di trasporto, logistica e magazzino su misura per aziende e privati.
               Mezzi propri, tempi certi e un referente diretto per ogni spedizione.
             </p>
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">

@@ -8,6 +8,7 @@ import {
   ArrowRight,
   Building2,
   ShieldCheck,
+  Warehouse,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { CtaBanner } from "@/components/CtaBanner";
@@ -15,17 +16,17 @@ import { CtaBanner } from "@/components/CtaBanner";
 export const Route = createFileRoute("/servizi")({
   head: () => ({
     meta: [
-      { title: "Servizi di trasporto con sponda idraulica | Chiariello Trasport" },
+      { title: "Servizi di trasporto, logistica e magazzino | Chiariello Trasport" },
       {
         name: "description",
         content:
-          "Trasporti con camion a sponda idraulica: consegne porta a porta, carico e scarico assistito, trasporti dedicati. Soluzioni per aziende e privati.",
+          "Trasporti con camion a sponda idraulica: consegne porta a porta, carico e scarico assistito, trasporti dedicati. Logistica e magazzino su richiesta.",
       },
       { property: "og:title", content: "Servizi — Chiariello Trasport" },
       {
         property: "og:description",
         content:
-          "Camion con sponda idraulica per consegne sicure ovunque. Servizio dedicato per aziende e privati.",
+          "Trasporti con sponda idraulica, logistica e magazzino su richiesta. Soluzioni per aziende e privati.",
       },
     ],
   }),
@@ -78,6 +79,17 @@ const services = [
     ],
   },
   {
+    icon: Warehouse,
+    title: "Logistica e Magazzino",
+    desc: "Su richiesta gestiamo deposito temporaneo, stoccaggio e supporto alle attività di preparazione spedizioni, con flussi semplici e tracciabili.",
+    benefits: [
+      "Deposito e stoccaggio temporaneo",
+      "Pianificazione ritiri e consegne dal magazzino",
+      "Supporto a carico/scarico e movimentazione",
+      "Soluzioni flessibili per picchi di lavoro",
+    ],
+  },
+  {
     icon: Building2,
     title: "Consegne in Cantiere e Centri Storici",
     desc: "La sponda idraulica è la soluzione ideale per consegnare in cantieri edili, ZTL, vicoli e zone difficili da raggiungere.",
@@ -110,7 +122,7 @@ function ServiziPage() {
             I nostri servizi
           </span>
           <h1 className="mx-auto mt-6 max-w-3xl font-display text-4xl font-bold md:text-5xl lg:text-6xl">
-            Trasporti con sponda idraulica per ogni esigenza
+            Trasporti con sponda idraulica, logistica e magazzino
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-lg text-white/80">
             Mezzi attrezzati per scaricare ovunque, in sicurezza. Una squadra che conosce

@@ -12,13 +12,13 @@ export const Route = createFileRoute("/lavora-con-noi")({
       {
         name: "description",
         content:
-          "Vuoi entrare nel team di Chiariello Trasport? Cerchiamo autisti C+E e personale logistico. Candidati e fai crescere la tua carriera con noi.",
+          "Vuoi entrare nel team di Chiariello Trasport? Cerchiamo autisti C+E e personale per logistica e magazzino. Candidati e cresci con noi.",
       },
       { property: "og:title", content: "Lavora con noi — Chiariello Trasport" },
       {
         property: "og:description",
         content:
-          "Posizioni aperte per autisti e personale logistico. Inviaci la tua candidatura.",
+          "Posizioni aperte per autisti e personale logistica/magazzino. Inviaci la tua candidatura.",
       },
     ],
   }),

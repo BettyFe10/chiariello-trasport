@@ -8,17 +8,17 @@ import { toast } from "sonner";
 export const Route = createFileRoute("/preventivo")({
   head: () => ({
     meta: [
-      { title: "Richiedi preventivo trasporto gratuito | Chiariello Trasporti" },
+      { title: "Preventivo trasporto, logistica e magazzino | Chiariello Trasport" },
       {
         name: "description",
         content:
-          "Compila il modulo e ricevi un preventivo personalizzato per il tuo trasporto entro 24 ore. Servizio gratuito e senza impegno.",
+          "Compila il modulo e ricevi un preventivo personalizzato entro 24 ore per trasporto merci, logistica e magazzino su richiesta. Gratuito e senza impegno.",
       },
-      { property: "og:title", content: "Preventivo gratuito — Chiariello Trasporti" },
+      { property: "og:title", content: "Preventivo — Chiariello Trasport" },
       {
         property: "og:description",
         content:
-          "Preventivo trasporto in 24 ore. Tariffe trasparenti, nessun impegno.",
+          "Preventivo in 24 ore per trasporto merci e logistica. Tariffe trasparenti, nessun impegno.",
       },
     ],
   }),

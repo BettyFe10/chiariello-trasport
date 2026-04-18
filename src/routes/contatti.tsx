@@ -8,13 +8,13 @@ import { toast } from "sonner";
 export const Route = createFileRoute("/contatti")({
   head: () => ({
     meta: [
-      { title: "Contatti | Chiariello Trasporti — Parla con noi" },
+      { title: "Contatti | Chiariello Trasport — Trasporto, logistica e magazzino" },
       {
         name: "description",
         content:
-          "Contatta Chiariello Trasporti: telefono, email e form per richieste rapide. Sede a Napoli, copertura nazionale ed europea.",
+          "Contatta Chiariello Trasport: telefono, email e form. Sede a Napoli, trasporto merci, logistica e magazzino su richiesta, copertura nazionale.",
       },
-      { property: "og:title", content: "Contatti — Chiariello Trasporti" },
+      { property: "og:title", content: "Contatti — Chiariello Trasport" },
       {
         property: "og:description",
         content: "Telefono, email e modulo contatti. Risposta entro 24 ore.",

@@ -11,7 +11,7 @@ export const Route = createFileRoute("/chi-siamo")({
       {
         name: "description",
         content:
-          "Chiariello Trasport è l'azienda familiare fondata nel 2016 da Salvatore e Maddalena Chiariello. Trasporti con camion a sponda idraulica per consegne sicure.",
+          "Chiariello Trasport è un'azienda familiare fondata nel 2016. Trasporto merci con sponda idraulica, logistica e supporto magazzino su richiesta.",
       },
       { property: "og:title", content: "Chi siamo — Chiariello Trasport" },
       {
