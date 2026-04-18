@@ -22,13 +22,13 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Trasporto merci su gomma, spedizioni nazionali, logistica e magazzino. Camion con sponda idraulica, consegne sicure e preventivo gratuito in 24 ore.",
+          "Trasporto merci su gomma, spedizioni nazionali, logistica e magazzino. Trasporto rottami e frutta. Camion con sponda idraulica e preventivo gratuito in 24 ore.",
       },
       { property: "og:title", content: "Chiariello Trasport — Trasporto merci, logistica e magazzino" },
       {
         property: "og:description",
         content:
-          "Trasporto merci su gomma, spedizioni nazionali e soluzioni di logistica e magazzino per aziende e privati.",
+          "Trasporto merci su gomma, spedizioni nazionali e soluzioni di logistica e magazzino. Anche rottami e frutta su richiesta.",
       },
       { property: "og:image", content: heroTruck },
       { name: "twitter:image", content: heroTruck },
@@ -107,7 +107,7 @@ const testimonials = [
     name: "Giuseppe Romano",
     role: "Titolare · Romano Arredamenti",
     text:
-      "Da quando ci affidiamo a loro non abbiamo più problemi di consegna, anche nei centri storici e nelle zone più difficili.",
+      "Da quando ci affidiamo a loro non abbiamo più problemi di consegna, anche su spedizioni complesse e con tempi stretti.",
   },
 ];
 

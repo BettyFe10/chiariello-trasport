@@ -6,9 +6,10 @@ import {
   Route as RouteIcon,
   Check,
   ArrowRight,
-  Building2,
   ShieldCheck,
   Warehouse,
+  Recycle,
+  Apple,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { CtaBanner } from "@/components/CtaBanner";
@@ -20,13 +21,13 @@ export const Route = createFileRoute("/servizi")({
       {
         name: "description",
         content:
-          "Trasporti con camion a sponda idraulica: consegne porta a porta, carico e scarico assistito, trasporti dedicati. Logistica e magazzino su richiesta.",
+          "Trasporti con camion a sponda idraulica: consegne porta a porta, carico e scarico assistito, trasporti dedicati. Trasporto rottami e frutta. Logistica e magazzino su richiesta.",
       },
       { property: "og:title", content: "Servizi — Chiariello Trasport" },
       {
         property: "og:description",
         content:
-          "Trasporti con sponda idraulica, logistica e magazzino su richiesta. Soluzioni per aziende e privati.",
+          "Trasporti con sponda idraulica, rottami e frutta. Logistica e magazzino su richiesta.",
       },
     ],
   }),
@@ -90,14 +91,25 @@ const services = [
     ],
   },
   {
-    icon: Building2,
-    title: "Consegne in Cantiere e Centri Storici",
-    desc: "La sponda idraulica è la soluzione ideale per consegnare in cantieri edili, ZTL, vicoli e zone difficili da raggiungere.",
+    icon: Recycle,
+    title: "Trasporto Rottami",
+    desc: "Trasporto di rottami e materiali ferrosi con pianificazione puntuale di ritiro e consegna. Operiamo con cura del carico e dei tempi.",
     benefits: [
-      "Mezzi adatti a strade strette",
-      "Permessi ZTL su richiesta",
-      "Esperienza in consegne edili",
-      "Scarico a piè di cantiere",
+      "Ritiro e consegna programmati",
+      "Carico/scarico assistito con sponda idraulica",
+      "Gestione dedicata per spedizioni ricorrenti",
+      "Comunicazione diretta e tracciabilità",
+    ],
+  },
+  {
+    icon: Apple,
+    title: "Trasporto Frutta",
+    desc: "Trasporto di frutta e prodotti ortofrutticoli con attenzione a puntualità e gestione del carico per preservare l’integrità della merce.",
+    benefits: [
+      "Consegne programmate e puntuali",
+      "Carico/scarico delicato con sponda idraulica",
+      "Ritiro presso aziende e fornitori",
+      "Gestione flessibile per picchi stagionali",
     ],
   },
   {
@@ -194,8 +206,8 @@ function ServiziPage() {
                 a: "Lavoriamo con entrambi. Molti privati ci chiamano per consegna mobili, materiali da costruzione, traslochi parziali o ritiro di merce ingombrante.",
               },
               {
-                q: "Riuscite a consegnare nei centri storici e nelle ZTL?",
-                a: "Sì, la sponda idraulica è perfetta per i centri storici. Su richiesta gestiamo i permessi ZTL e organizziamo consegne in fasce orarie consentite.",
+                q: "Che tipi di merce trasportate?",
+                a: "Trasportiamo diverse tipologie di merce in base a tratta e necessità: pallet, casse e merci ingombranti. Gestiamo anche trasporto rottami e trasporto frutta/prodotti ortofrutticoli su richiesta.",
               },
               {
                 q: "Quali zone coprite con il vostro servizio?",
